@@ -13,7 +13,7 @@ import { toastContainerStyles } from 'components/Toast/toastStyles.js';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-  <BrowserRouter>
+  <BrowserRouter basename='bc_react_70_Lubov1506'>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <App />
